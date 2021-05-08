@@ -26,7 +26,7 @@ While Lot 1 and Lot 2 have very little variance, Lot 3 has a variance of 170.3ps
 
 ## T-Tests on Suspension Coils
 
-The t-test results for all the samples gave us a p-value of 0.06072, falling just short of statistical significance.
+The t-test results for all the samples gave us a p-value of 0.06072, falling just short of statistical significance, so we fail to reject the null hypothesis that the true mean is 1500psi.
 
 ![t_test.PNG](Resources/t_test.PNG)
 
