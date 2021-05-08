@@ -28,9 +28,6 @@ lot_summary <- coil %>%
 t.test(coil$PSI, mu=1500)
 
 # Perform t-test on each lot of samples
-lot1 <- subset(coil, Manufacturing_Lot=="Lot1")
-lot2 <- subset(coil, Manufacturing_Lot=="Lot2")
-lot3 <- subset(coil, Manufacturing_Lot=="Lot3")
-t.test(lot1$PSI, mu=1500)
-t.test(lot2$PSI, mu=1500)
-t.test(lot3$PSI, mu=1500)
+t.test(subset(coil, Manufacturing_Lot=="Lot1")$PSI, mu=1500)
+t.test(subset(coil, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
+t.test(subset(coil, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
