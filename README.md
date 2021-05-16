@@ -40,3 +40,14 @@ The t-test results for the three Manufacturing Lots gave us the follwing p-value
 While Lot 1 and Lot 2 have p-values great enough that we fail to reject the null hypothesis that the true mean is 1500psi. However, Lot 3 has a p-value that falls below the 0.05 significance threshold, leading us to reject the null hypothesis that the true mean is 1500psi. Since the results for Lot 3 are statistically significant we would advise examining the manufacturing process to determine what is causing these results.  
 
 ## Study Design: MechaCar vs Competition
+
+We could perform an analysis on MechaCar's fuel efficiency (measured in miles per gallon) vs. the fuel efficiencies of its competitors.
+
+- Null hypothesis: there is no statistical difference between MechaCar's average mpg and its competitors' mpg
+- Alternate hypothesis: there is a statistal difference between MechaCar's average mpg and its competitors' mpg   
+
+We would need a dataset containing average mpg values for MechaCars and mpg values for cars manufactured by competitors. We would filter the cars into two groups - MechaCars and competitors - and run a two-sample t-test to determine whether there is a statistical difference between the fuel efficiencies of the two datasets.  
+
+
+
+
