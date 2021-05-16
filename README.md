@@ -2,11 +2,11 @@
 
 ## Linear Regression to Predict MPG
 
-We performed a multiple linear regression on MPG data to determine which variables provide a non-random amount of variance in the MPG. 
+We performed a multiple linear regression on mpg data to determine which variables provide a non-random amount of variance in the mpg. 
 
 ![lm_mpg.PNG](Resources/lm_mpg.PNG)
 
-Vehicle length (p=2.60e-12) and ground clearance (p=5.21e-8) have a significant impact on MPG, while spoiler angle (p=0.3069) and AWD (p=0.1852) contribute random amounts of variance and have an insignificant impact on MPG. Vehicle length (p=0.0776) is not as clear cut because it falls much closer to the 0.05 p-value significance threshold. 
+Vehicle length (p=2.60e-12) and ground clearance (p=5.21e-8) have a significant impact on mpg, while spoiler angle (p=0.3069) and AWD (p=0.1852) contribute random amounts of variance and have an insignificant impact on mpg. Vehicle length (p=0.0776) is not as clear cut because it falls much closer to the 0.05 p-value significance threshold. 
 
 Since the p-value for our model is 5.35e-11, there is significant evidence that we can reject the null hypothesis that the slope of the linear regression line is zero and conclude that there are several factors that provide non-random amounts of variance. While most the variables have a positive correlation with mph, AWD has a negative corelation. However, since AWD is a catergorical variable we should either exclude it from the linear regression model, or incorporate it by creating two subsets of data and running separate regressions for each category.
 
